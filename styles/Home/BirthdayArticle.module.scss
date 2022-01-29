@@ -1,0 +1,24 @@
+@import "../Helpers/variables";
+
+.article {
+    margin-block: 1.5rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.8rem;
+
+    &__imgContent {
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+        border-radius: 50%;
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    &__name {
+        margin-block: 0.1rem;
+    }
+    &__age {
+        color: $scndTextColor;
+    }
+}
